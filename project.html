@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .top {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo {
+            margin-right: 50px;
+            width: 300px;
+            height: 150px;
+        }
+
+        .search {
+            border: 2px solid navy;
+            width: 700px;
+            height: 20px;
+            padding: 20px;
+            border-radius: 40px;
+            outline: none;
+        }
+
+        .buy {
+            width: 100px;
+            height: 100px;
+            margin: 25px;
+        }
+
+
+
+        .book {
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 50px;
+        }
+
+        .bb1 {
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        .b1 {
+            width: 180px;
+        }
+
+        .b2 {
+            width: 180px;
+            border: solid 2px gainsboro;
+        }
+
+        .b3 {
+            width: 180px;
+        }
+
+        .b4 {
+            width: 180px;
+        }
+
+        .bb1:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .bb1:hover img {
+            box-shadow: 4px 4px 2px gray;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <div class="top">
+        <img class="logo" src="/img/20230331501823.jpg">
+        <input class="search" type="text" placeholder="검색">
+        <a target="_blank" href="https://www.kyobobook.co.kr/">
+            <img src="./img/478045 (1).png" class="buy">
+        </a>
+    </div>
+
+
+
+    <div class="book">
+        <div class="bb1" onclick="window.location.href = 'book1.html';">
+            <img class="b1" src="./img/XL (1).jpeg">
+            <div>
+                <div><h4>시간을 건너는 집</h4></div>
+                <div>김하연 저자</div>
+                <div>11,250원</div>
+            </div>
+        </div>
+
+        <div class="bb1" onclick="window.location.href = 'book2.html';">
+            <img class="b2" src="./img/9788936459093.jpg">
+            <div>
+                <div><h4>페인트</h4></div>
+                <div>이희영 저자</div>
+                <div>11,700원</div>
+            </div>
+        </div>
+
+        <div class="bb1" onclick="window.location.href = 'book3.html';">
+            <img class="b3" src="./img/20230819_170033.png">
+            <div>
+                <div><h4>세계를 건너 너에게 갈게</h4></div>
+                <div>이꽃님 저자</div>
+                <div>11,250원</div>
+            </div>
+        </div>
+
+        <div class="bb1" onclick="window.location.href = 'book4.html';">
+            <img class="b4" src="./img/37300128.jpeg">
+            <div>
+                <div><h4>아몬드</h4></div>
+                <div>손원평 저자</div>
+                <div>15,120원</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="book">
+        <div class="bb1" onclick="window.location.href = 'book5.html';">
+            <img class="b1" src="./img/L.jpeg">
+            <div>
+                <div><h4>푸른 사자 와니니</h4></div>
+                <div>이현 저자</div>
+                <div>9,720원</div>
+            </div>
+        </div>
+
+        <div class="bb1" onclick="window.location.href = 'book6.html';">
+            <img class="b2" src="./img/9788954675314.jpg">
+            <div>
+                <div><h4>행운이 너에게 다가오는 중</h4></div>
+                <div>이꽃님 저자</div>
+                <div>11,250원</div>
+            </div>
+        </div>
+
+        <div class="bb1" onclick="window.location.href = 'book7.html';">
+            <img class="b3" src="./img/9788954671989.jpg">
+            <div>
+                <div><h4>귤의 맛</h4></div>
+                <div>조남주 저자</div>
+                <div>11,250원</div>
+            </div>
+        </div>
+
+        <div class="bb1" onclick="window.location.href = 'book8.html';">
+            <img class="b4" src="./img/XL.jpeg">
+            <div>
+                <div><h4>훌훌</h4></div>
+                <div>문경민 저자</div>
+                <div>11,250원</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
